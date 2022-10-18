@@ -1,0 +1,30 @@
+.contenedor{
+    display: grid;
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    gap:0.5rem;
+
+}
+
+.item{
+
+    background-color: salmon;
+    padding: 0.25rem;
+    margin:0.25rem;
+    width: 3rem;
+    text-align: center; 
+}
+
+.principal{
+    background-color: aquamarine;
+    text-align: center;
+    grid-area: 1 / 2 / 4 / 10;   
+}
+
+@media (min-width: 640px){
+    .item{
+        flex-direction: row;
+    }
+
+}
+
